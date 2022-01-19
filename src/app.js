@@ -4,8 +4,8 @@ import schemaGraphQL from "./graphQL/schema";
 const app = express();
 
 app.use("/graphql", graphqlHTTP({
-    schema: schemaGraphQL, // Todas as Query's e Mutations.
-    graphiql: true // Interface Grafica na rota.
+    schema: schemaGraphQL, // Todas as Queries e Mutations.
+    graphiql: true // Interface Gráfica na Rota.
 }));
 
 
