@@ -4,9 +4,9 @@
 GraphQL é uma Linguagem de Consulta(Consulta HTTP) criada pelo Facebook, Disponível para várias linguagens e tecnologias.
 
 ## Vantagens e Propósito
-GraphQL permite o Client-Side fazer Requisições mais detalhadas para o Server-Side, assim com o íntuido de Resolver um problema chamado Overfetching
+GraphQL permite o Client-Side fazer Requisições mais detalhadas para o Server-Side, assim com o Intuido de Resolver um problema chamado Overfetching
 ### Overfetching
-Hoje em dia muitas aplicações - tanto back-end quanto front-end - são Hospedadas em Serviços Cloud, tais como a AWS, Azure etc... sabendo que a cobrança é feita por quantidade de uso de recursos, o metodo tradícional REST se torna muito inapropiado nessa questão, pois quando é feita uma requisição para alguma rota, a resposta virá com todos os campos, mesmo que não seja necessário e é ai o problema, esse excesso tráfego gerá custos desnecessários.
+Hoje em dia muitas aplicações - tanto back-end quanto front-end - são Hospedadas em Serviços Cloud, tais como a AWS, Azure etc... sabendo que a cobrança é feita por quantidade de uso de recursos, o metodo tradicional REST se torna muito inapropiado nessa questão, pois quando é feita uma Requisição para alguma rota, a resposta virá com todos os campos, mesmo que não seja necessário e é ai o problema, esse excesso tráfego gerá custos desnecessários.
 
 ## Como o GraphQL resolve o problema ?
 Dado que o problema de "Overfetching" se da pelo excesso de Campos desnecessários, oque o GraphQL básicamente faz é devolver somente os campos pedidos. Exemplo:
